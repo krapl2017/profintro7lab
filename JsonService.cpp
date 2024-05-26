@@ -1,6 +1,6 @@
 #include "JsonService.h"
 
-using nlohmann::json;
+using json = nlohmann::json;
 
 Weather JsonService::getWeather(std::string s){
     std::ifstream fin(s);
@@ -8,7 +8,8 @@ Weather JsonService::getWeather(std::string s){
         throw std::exception("error");
 
     json j;
-    j = json::parse(fin);
+    fin >> j;
+    //j = json::parse(fin);
     std::string city = j["name"]; //  Киров
     double lon = j["coord"]["lon"]; // 49.6601
     double lat = j["coord"]["lat"]; // 58.5966  

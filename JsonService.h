@@ -1,7 +1,7 @@
 #pragma once
 #include <fstream>
 #include "Service.h"
-#include "../WeatherService/dependencies/include/nlohmann/json.hpp"
+#include "dependencies/include/nlohmann/json.hpp"
 
 class JsonService : public Service {
 public:
