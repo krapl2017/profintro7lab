@@ -3,14 +3,12 @@
       "lon":49.6601,
       "lat":58.5966
    },
-   "weather":[
-      {
+   "weather":{
          "id":501,
          "main":"Rain",
          "description":"дождь",
          "icon":"10d"
-      }
-   ],
+      },
    "base":"stations",
    "main":{
       "temp":5.69,

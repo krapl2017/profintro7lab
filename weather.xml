@@ -1,5 +1,5 @@
 <current>
-<city id="548408" name="Киров">
+<city id="548408" name="РљРёСЂРѕРІ">
 <coord lon="49.6601" lat="58.5966"/>
 <country>RU</country>
 <timezone>10800</timezone>
@@ -14,9 +14,9 @@
 <gusts value="11.57"/>
 <direction value="171" code="S" name="South"/>
 </wind>
-<clouds value="100" name="пасмурно"/>
+<clouds value="100" name="РїР°СЃРјСѓСЂРЅРѕ"/>
 <visibility value="133"/>
 <precipitation value="0.45" mode="rain" unit="1h"/>
-<weather number="500" value="небольшой дождь" icon="10d"/>
+<weather number="500" value="РЅРµР±РѕР»СЊС€РѕР№ РґРѕР¶РґСЊ" icon="10d"/>
 <lastupdate value="2023-03-27T08:55:52"/>
 </current>
